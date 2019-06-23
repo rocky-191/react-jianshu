@@ -11,13 +11,13 @@ class Topic extends Component {
         const { topicList } = this.props;
         return (
             <TopicWrapper>
-                {
+                {/* {
                     topicList.map(item=>{
                         return (
                             <TopicItem key={item.get('id')}>{item.get('title')}</TopicItem>
                         )
                     })
-                }
+                } */}
             </TopicWrapper>
         );
     }
