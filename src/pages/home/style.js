@@ -173,3 +173,25 @@ export const WriterItem=styled.li`
         color: #42c02e;
     }
 `;
+
+export const LoadMore=styled.div`
+    width:100%;
+    height:40px;
+    line-height:40px;
+    margin:30px 0;
+    text-align:center;
+    cursor:pointer;
+`;
+
+export const BackTop=styled.div`
+    position:fixed;
+    bottom:50px;
+    right:40px;
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    line-height:50px;
+    text-align: center;
+    display: block;
+    border: 1px solid #dcdcdc;
+`;

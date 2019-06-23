@@ -4,4 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 已实现功能
 - 简书头部
-- 首页内容，列表，右侧推荐模块，推荐作者模块。（所有数据采用获取模拟数据）
+- 首页内容，列表，右侧推荐模块，推荐作者模块,回到顶部功能。（所有数据采用获取模拟数据）
+- 列表页进入详情页路由跳转
