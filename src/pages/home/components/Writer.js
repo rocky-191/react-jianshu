@@ -24,11 +24,11 @@ class Writer extends Component {
                             writerList.map(item=>{
                                 return (
                                     <WriterItem key={item.get('id')}>
-                                        <a className="avatar">
+                                        <span className="avatar">
                                             <img alt="" src={item.get('imgUrl')} />
-                                        </a>
-                                        <a className="follow">关注</a>
-                                        <a className="name">{item.get('name')}</a>
+                                        </span>
+                                        <span className="follow">关注</span>
+                                        <span className="name">{item.get('name')}</span>
                                         <p>{item.get('desc')}</p>
                                     </WriterItem>
                                 )
