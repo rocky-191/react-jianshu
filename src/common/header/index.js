@@ -59,7 +59,9 @@ class Header extends PureComponent {
                 <Logo />
             </Link>
             <Nav>
-                <NavItem className="left active">首页</NavItem>
+                <Link to="/">
+                    <NavItem className="left active">首页</NavItem>
+                </Link>
                 <NavItem className="left">下载App</NavItem>
                 {
                     login ?
@@ -83,10 +85,12 @@ class Header extends PureComponent {
                     {this.getListArea()}
                 </SearchWrapper>
                 <Addition>
-                    <Button className="writting">
-                        <i className="iconfont">&#xe615;</i>
-                        写文章
-                    </Button>
+                    <Link to='/write'>
+                        <Button className="writting">
+                            <i className="iconfont">&#xe615;</i>
+                            写文章
+                        </Button>
+                    </Link>
                     <Button className="reg">注册</Button>
                 </Addition>
             </Nav>
